@@ -15,5 +15,5 @@ for x in areas_pis:
     if isinstance(x,(int,float)):
         sumaAreas+=x
 print(sumaAreas)
-print(6%3)
+
 

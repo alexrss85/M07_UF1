@@ -9,6 +9,6 @@ for x in llistaNums:
 mitjana=sumaTotal/len(llistaNums)
 llistaNums.append(sumaTotal)
 llistaNums.append(mitjana)
-print("Numeros de l'usuari: "+ str(llista))
+print("Números de l'usuari: "+ str(llista))
 print("Suma Total: "+ str(sumaTotal))
 print("Mitjana: "+ str(mitjana))
