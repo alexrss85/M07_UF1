@@ -27,7 +27,7 @@ minimMatriu(matriu)
 ex4Alex()
 
 # #EX4 (Albert)
-# ex4Albert()
+ex4Albert()
 
 # #EX4 (Victor)
-# ex4Victor()
+ex4Victor()
