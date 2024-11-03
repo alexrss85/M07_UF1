@@ -6,10 +6,10 @@ def crearTaula(conn,connection):
     id int primary key,
     nombre VARCHAR(20) ,
     region VARCHAR(20),
-    posicion VARCHAR(20),
-    recurso VARCHAR(20),           
-    raza VARCHAR(20),
-    tipo_ataque VARCHAR(20)              
+    recurso VARCHAR(20),
+    raza VARCHAR(20),           
+    tipo_ataque VARCHAR(20),
+    posicion VARCHAR(20)              
 );'''
 
         connection.execute(sql)
