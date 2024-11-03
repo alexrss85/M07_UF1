@@ -1,13 +1,24 @@
-import psycopg2
+import psycopg2 as psy
 
-conn = psycopg2.connect(
-    database = "postgres",
-    user = "user_postgres",
-    password="pass_postgres",
-    host="localhost",
-    port="5432"
-)
+def conexio():
+    try:
+            conn = psy.connect(
+                database="postgres",
+                user="user_postgres",
+                password="pass_postgres",
+                host="localhost",
+                port="5432"
+            )
 
-connection = conn.cursor()
+            connection = conn.cursor()
+            return conn, connection
 
-print(connection)
+    except (Exception, psy.Error) as error:
+        print("Error",error)
+        return(None,None)
+
+
+    
+
+
+
